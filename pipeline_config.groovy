@@ -13,7 +13,9 @@ libraries{
       cred = "github"
     }
   }
-  github
+  github{
+    source_type = "github_enterprise"
+  }
   docker{
     merge = true
     registry = "localhost:5000"
