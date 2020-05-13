@@ -16,15 +16,9 @@ libraries{
   github
   docker{
     merge = true
-    registry = "docker-registry-default.apps.okd.kottoson.net"
+    registry = "localhost:5000"
     repo_path_prefix = "sample-app"
-    cred = "openshift-sample-app-tiller"
+    cred = "local-registry"
   }
-  openshift{
-    url = "master.okd.kottoson.net:8443"
-    helm_configuration_repository = "https://github.com/kottoson-bah/sdp-example-helm-config.git"
-    helm_configuration_repository_credential = "github"
-    tiller_namespace = "sample-app-tiller"
-    tiller_credential = "openshift-sample-app-tiller"
-  }
+  gradle
 }
