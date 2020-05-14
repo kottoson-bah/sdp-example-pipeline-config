@@ -16,11 +16,5 @@ libraries{
   github{
     source_type = "github_enterprise"
   }
-  docker{
-    merge = true
-    registry = "localhost:5000"
-    repo_path_prefix = "sample-app"
-    cred = "local-registry"
-  }
   gradle
 }
