@@ -6,13 +6,13 @@ application_environments{
 }
 
 libraries{
-  sdp{
-    images{
-      registry = "https://docker.pkg.github.com"
-      repository = "boozallen/sdp-images"
-      cred = "github"
-    }
-  }
+//  sdp{
+//    images{
+//      registry = "https://docker.pkg.github.com"
+//      repository = "boozallen/sdp-images"
+//      cred = "github"
+//    }
+//  }
   github
   docker{
     merge = true
