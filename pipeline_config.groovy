@@ -13,7 +13,7 @@ libraries{
 //      cred = "github"
 //    }
 //  }
-  github
+//  github
   docker{
     merge = true
     registry = "docker-registry-default.apps.okd.kottoson.net"
