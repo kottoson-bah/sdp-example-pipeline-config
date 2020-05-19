@@ -2,6 +2,7 @@ application_environments{
   dev{
     short_name = "dev"
     long_name = "Development"
+    helm_chart_branch = "new-repos-val"
   }
 }
 
