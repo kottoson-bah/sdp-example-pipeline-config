@@ -29,6 +29,6 @@ libraries{
     tiller_credential = "openshift-sample-app-tiller"
   }
   slack{
-    notify_on = ["failure", "status"]
+    notify_on = ["success", "status"]
   }
 }
