@@ -23,10 +23,10 @@ libraries{
   }
 }
 
-//steps{
-//  deploy_to{
-//    stage = "Deploy"
-//    image = "maven"
-//    script = "echo 'deploy to'"
-//  }
-//}
+steps{
+  deploy_to{
+    stage = "Deploy"
+    image = "maven"
+    script = "echo 'deploy to'"
+  }
+}
