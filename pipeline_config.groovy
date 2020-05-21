@@ -21,11 +21,12 @@ libraries{
     repo_path_prefix = "sample-app"
     cred = "openshift-sample-app-tiller"
   }
-  openshift{
-    url = "master.okd.kottoson.net:8443"
-    helm_configuration_repository = "https://github.com/kottoson-bah/sdp-example-helm-config.git"
-    helm_configuration_repository_credential = "github"
-    tiller_namespace = "sample-app-tiller"
-    tiller_credential = "openshift-sample-app-tiller"
+}
+
+steps{
+  deploy_to{
+    stage = "Deploy"
+    image = "maven"
+    script = "echo 'deploy to'"
   }
 }
