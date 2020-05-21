@@ -17,9 +17,9 @@ libraries{
   github
   docker{
     merge = true
-    registry = "docker-registry-default.apps.okd.kottoson.net"
+    registry = "localhost:5000"
     repo_path_prefix = "sample-app"
-    cred = "openshift-sample-app-tiller"
+    cred = "local-registry"
   }
   openshift{
     url = "master.okd.kottoson.net:8443"
