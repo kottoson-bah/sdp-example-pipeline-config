@@ -25,7 +25,7 @@ libraries{
     url = "master.okd.kottoson.net:8443"
     helm_configuration_repository = "https://github.com/kottoson-bah/sdp-example-helm-config.git"
     helm_configuration_repository_credential = "github"
-    tiller_namespace = "sample-app-tiller"
+    tiller_namespace = "sample-app-tille"
     tiller_credential = "openshift-sample-app-tiller"
   }
   slack{
