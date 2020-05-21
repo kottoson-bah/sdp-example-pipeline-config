@@ -27,6 +27,6 @@ steps{
   deploy_to{
     stage = "Deploy"
     image = "maven"
-    script = "echo 'deploy to'"
+    command = "echo 'deploy to'"
   }
 }
